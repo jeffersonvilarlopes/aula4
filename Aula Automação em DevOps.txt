@@ -1,0 +1,126 @@
+EVENTOS
+ciab.org.br
+aws.amazon.com.br/pt/summits/sao-paulo/
+
+Automação em DevOps
+
+Provisionamento de máquinas
+
+Vagrant para ambiente de testes igual ao de produção
+construção e manutenção
+escrito em ruby
+suporta outras linguagens
+#### simular servers como se fosse em ambiente de produção #######
+ambiente isolado
+
+pacote
+www.vagrantup.com/downloads.html
+
+
+vagrant file - configurações da máquina
+
+1- instalação
+2- reboot
+3- cd c:\vagrant 
+4- vagrant 
+5- vagrant init ubuntu/trusty64
+6- vagrant list verificar imagens
+7- vagrant up cria o arquivo vagrantfile
+8- verificar box vagrant box list
+9- ssh vagrant ssh 
+10- 127.0.0.1:2222 para fazer ssh , user vagrant
+11- baixar zip no github.com/yrmenezes/vagrant
+12- entrar dentro da pasta do vagrant do file baixado , executar vagrant up , criar pasta www
+
+
+
+
+##################################################################
+trabalho automação e devops
+10 , 15 minutos
+
+AWS EC2
+escolher um tema de devops , explicar uma ferramenta e apresentar
+por que escolheu , o que é
+por que usar esta ferramenta , fundamento
+utilização da ferramenta
+casos de uso
+##################################################################
+
+Sistema de controle de versão
+
+instalar 
+yum install git
+criar pasta de repositorio local
+entrar na pasta
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+dar 
+git init
+criar arquivos
+git add .
+git commit -m "teste"
+
+obs:por padrão monitora as modificações
+.gitignore para limitar os arquivos que devem ser ignorados
+
+quando modificar
+git add arq
+git commit -m "com"
+
+git log para verificar os commits
+
+git log -p -2 dois ultimos commits
+
+git diff arq verifica diferenças de modificações
+
+git checkout teste4 volta as modificações antes do commit
+
+git rm teste4
+
+git tag -a V1.1 -m "Versao 1.1"
+git tag
+
+git log --pretty=oneline
+
+branch , ponteiro , area de trabalho
+
+git branch novo cria novo branch
+
+muda para outro branch
+git checkout novo
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+
+Orientação do professor Thiago para o Artigo de conclusão
+
+site google acadêmico
+  
+Artigo(descrição do trabalho prático) com ou sem trabalhos relacionados
+introdução(contexto da situação,visão geral)
+fundamentação teórica(descrição das tecnologias)
+métodos e funcionamentos(como foi feito o trabalho)
+resultados
+referências
++
+apresentação
+
+##################################################################
+GIT HUB
+
+
+
+
+
+
+ 
